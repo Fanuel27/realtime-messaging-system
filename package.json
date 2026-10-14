@@ -1,0 +1,26 @@
+{
+  "name": "realtime-messaging-system",
+  "version": "1.0.0",
+  "description": "Secure Real-Time One-to-One Messaging Web Application",
+  "private": true,
+  "scripts": {
+    "start:server": "npm --prefix server start",
+    "start:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "test:server": "npm --prefix server test",
+    "test:client": "npm --prefix client test",
+    "test": "npm run test:server && npm run test:client",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "realtime",
+    "messaging",
+    "chat",
+    "socketio",
+    "express",
+    "react",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "ISC"
+}
